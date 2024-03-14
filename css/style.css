@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   color: #777;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 2;
   margin: 0; }
@@ -1296,7 +1296,7 @@ body {
   .navbar .icon-bar {
     color: #fff; }
   .navbar .navbar-nav .nav-link {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     color: #fff;
     padding: 15px 7px;
@@ -3568,7 +3568,7 @@ header.simpl {
   transition: all .4s; }
   .work-carousel .noraidus .cont h6 {
     color: #3f3c8b;
-    font-size: 12px;
+    font-size: 17px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2px;
