@@ -5342,8 +5342,8 @@ header.simpl {
   white-space: nowrap; /* Prevent text from wrapping */
   overflow: hidden;
   text-overflow: ellipsis; /* Show ellipsis for overflow text */
-  width: 200px; /* Fixed width for all tabs */
-  text-align: center; /* Center text */
+  width: 400px; /* Fixed width for all tabs */
+  text-align: left; /* Center text */
 }
 
 .tab:hover {
@@ -5353,9 +5353,9 @@ header.simpl {
 .panels {
   background: #fffffff6;
   box-shadow: 0 2rem 2rem #00000080;
-  min-height: 200px;
+  min-height: 500px;
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   border-radius: 0 3px 3px 0;
   overflow: hidden;
   padding: 20px;
@@ -5387,6 +5387,14 @@ header.simpl {
 #one:checked ~ .panels #one-panel,
 #two:checked ~ .panels #two-panel,
 #four:checked ~ .panels #four-panel,
+#five:checked ~ .panels #five-panel,
+#six:checked ~ .panels #six-panel,
+#seven:checked ~ .panels #seven-panel,
+#eight:checked ~ .panels #eight-panel,
+#nine:checked ~ .panels #nine-panel,
+#ten:checked ~ .panels #ten-panel,
+#eleven:checked ~ .panels #eleven-panel,
+#twelve:checked ~ .panels #twelve-panel,
 #three:checked ~ .panels #three-panel {
   display: block;
 }
@@ -5394,6 +5402,14 @@ header.simpl {
 #one:checked ~ .tabs #one-tab,
 #two:checked ~ .tabs #two-tab,
 #four:checked ~ .tabs #four-tab,
+#five:checked ~ .tabs #five-tab,
+#six:checked ~ .tabs #six-tab,
+#seven:checked ~ .tabs #seven-tab,
+#eight:checked ~ .tabs #eight-tab,
+#nine:checked ~ .tabs #nine-tab,
+#ten:checked ~ .tabs #ten-tab,
+#eleven:checked ~ .tabs #eleven-tab,
+#twelve:checked ~ .tabs #twelve-tab,
 #three:checked ~ .tabs #three-tab {
   background: #fffffff6;
   color: #000;
@@ -5405,6 +5421,15 @@ header.simpl {
 
 #one:checked ~ .tabs #one-tab,
 #two:checked ~ .tabs #two-tab,
+#four:checked ~ .tabs #four-tab,
+#five:checked ~ .tabs #five-tab,
+#six:checked ~ .tabs #six-tab,
+#seven:checked ~ .tabs #seven-tab,
+#eight:checked ~ .tabs #eight-tab,
+#nine:checked ~ .tabs #nine-tab,
+#ten:checked ~ .tabs #ten-tab,
+#eleven:checked ~ .tabs #eleven-tab,
+#twelve:checked ~ .tabs #twelve-tab,
 #three:checked ~ .tabs #three-tab {
   white-space: normal; /* Allow text to wrap onto multiple lines */
 }
