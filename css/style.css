@@ -5355,7 +5355,7 @@ header.simpl {
   box-shadow: 0 2rem 2rem #00000080;
   min-height: 500px;
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   border-radius: 0 3px 3px 0;
   overflow: hidden;
   padding: 20px;
@@ -5432,6 +5432,62 @@ header.simpl {
 #twelve:checked ~ .tabs #twelve-tab,
 #three:checked ~ .tabs #three-tab {
   white-space: normal; /* Allow text to wrap onto multiple lines */
+}
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .warpper {
+    flex-direction: column;
+  }
+
+  .tabs {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .tab {
+    width: 500px;
+  }
+
+  .panels {
+    max-width: none;
+  }
+
+  .panel {
+    padding: 15px;
+  }
+}
+/* Add media queries for responsiveness */
+@media screen and (max-width: 400px) {
+  .warpper {
+    flex-direction: column;
+  }
+
+  .tabs {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .tab {
+    width: 350px;
+  }
+
+  .panels {
+    max-width: none;
+  }
+
+  .panel {
+    padding: 15px;
+  }
+}
+.logo-ex {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Add margin to separate from description */
+  margin-top: 10px; /* Add margin to separate from description */
+  border: 1px solid #ddd; /* Add border for visual separation */
+  border-radius: 5px; /* Optional: Add border radius */
+  display: block; /* Ensure the image is displayed as a block element */
+  max-width: 100%; /* Ensure the image doesn't exceed its parent container */
 }
 
 
